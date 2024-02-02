@@ -1,0 +1,122 @@
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons");
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.header{
+    background-color: #F5EDD8;
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr 1fr;
+    align-items: center;
+    justify-items: center;
+    border-bottom: 4px solid #686868;
+}
+.small_logo{
+    max-width: 98px;
+    justify-self: flex-start;
+    margin: 7px;
+}
+.header_links{
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+}
+.header_button{
+    text-decoration: none;
+    color: black;
+    font-size: 27px;
+    background-color: #E37DB4;
+    padding: 10px 30px 10px 30px;
+    border: solid black 2px;
+    border-radius: 10px;
+    width: 230px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    margin-right: 15px;
+}
+
+
+.big{
+    display: flex;
+    justify-content: center;
+    font-size: 35px;
+    margin: 50px 50px 30px 50px;
+    font-weight: 900;
+    color: #E37DB4;
+}
+.small{
+    display: flex;
+    justify-content: center;
+    font-size: 17px;
+    text-align: center;
+    margin: 0px 50px 50px 50px;
+    line-height: 190%;
+}
+
+
+
+
+.img_carousel {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    max-width: 1230px; 
+    margin: auto;
+}
+
+.img_carousel_inner {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.img_container {
+    width: 100%;
+    padding: 10px solid white;
+}
+
+.pic {
+    width: 410px;
+    height: auto;
+}
+
+.buttons {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+button {
+    font-size: 24px;
+    cursor: pointer;
+    border-radius: 50%;
+    background-color: #E37DB4;
+    border: none;
+    width: 30px;
+    height: 30px;
+}
+.material-icons{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+.footer{
+    display: grid;
+    grid-template-columns: 1fr 2fr 2fr 3fr;
+    background-color: #E37DB4;
+}
+.info{
+    align-self: center;
+}
+.rights{
+    align-self: flex-end;
+    justify-self: flex-end;
+    margin: 15px;
+}

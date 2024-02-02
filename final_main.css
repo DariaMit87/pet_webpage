@@ -1,0 +1,177 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.header{
+    background-color: #F5EDD8;
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr 1fr;
+    align-items: center;
+    justify-items: center;
+    border-bottom: 4px solid #686868;
+}
+.small_logo{
+    max-width: 98px;
+    justify-self: flex-start;
+    margin: 7px;
+}
+.header_links{
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+}
+.header_button{
+    text-decoration: none;
+    color: black;
+    font-size: 27px;
+    background-color: #E37DB4;
+    padding: 10px 30px 10px 30px;
+    border: solid black 2px;
+    border-radius: 10px;
+    width: 230px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    margin-right: 15px;
+}
+
+
+.pic_welcome{
+    display: flex;
+    position: relative;
+    text-align: center;
+    color: white;
+}
+.dogs_play{
+    width: 100%;
+    height: 100%;
+    filter: brightness(45%);
+}
+.welcome{
+    position: absolute;
+    top: 42%;
+    left: 24%;
+    font-size: 65px;
+}
+.best{
+    position: absolute;
+    top: 54%;
+    left: 36%;
+    font-size: 30px;
+}
+
+
+.hotel_pros{
+    background-color: #E37DB4;
+    padding: 6px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 2fr 1fr;
+    justify-items: center;
+    align-items: center;
+    border-bottom: 4px solid #686868;
+}
+.icon{
+    width: 90px;
+    height: 97px;
+}
+.sign{
+    font-size: 25px;
+}
+
+
+.services{
+    background-color: #F5EDD8;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 70px 60px 300px 200px;
+    align-items: center;
+    justify-items: center;
+}
+.our{
+    grid-area: 1/1/1/3;
+    font-size: 40px;
+}
+.two{
+    grid-area: 2/1/2/3;
+    font-size: 27px;
+}
+.services_button{
+    grid-area: 4/1/4/3;
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+    background-color: #E37DB4;
+    padding: 10px 33px 10px 33px;
+    border: solid black 2px;
+    border-radius: 10px;
+    width: 270px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+}
+.twin_daycare{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    background-color: white;
+    width: 300px;
+    height: 280px;
+    justify-self: flex-end;
+    margin-right: 30px;
+}
+.twin_hotel{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    background-color: white;
+    width: 300px;
+    height: 280px;
+    justify-self: flex-start;
+    margin-left: 30px;
+}
+.daycare_heading{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    font-size: 25px;
+}
+.hotel_heading{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    font-size: 25px;
+}
+.daycare_text{
+    margin: 5px 10px 10px 10px;
+}
+.hotel_text{
+    margin: 5px 10px 10px 10px;
+}
+
+
+.end_pics{
+    display: flex;
+    border-bottom: 4px solid #686868;
+    border-top: 2px solid #686868;;
+}
+.dog_pics{
+    width: 308px;
+}
+
+
+.footer{
+    display: grid;
+    grid-template-columns: 1fr 2fr 2fr 3fr;
+    background-color: #E37DB4;
+}
+.info{
+    align-self: center;
+}
+.rights{
+    align-self: flex-end;
+    justify-self: flex-end;
+    margin: 15px;
+}

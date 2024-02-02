@@ -65,6 +65,7 @@
     width: 100%;
     max-width: 1230px; 
     margin: auto;
+    margin-bottom: 60px;
 }
 
 .img_carousel_inner {
@@ -102,6 +103,46 @@ button {
 .material-icons{
     display: flex;
     justify-content: center;
+}
+
+
+
+.typical_day{
+    position: relative; 
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    border-bottom: 4px solid #686868;
+}
+.typical_day::before{
+    content: "";
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    height: 100%;
+    width: 100%;
+    background-image: url('pics/Monstera-deliciosa.jpg');
+    background-size: cover;
+    opacity: 0.2;
+}
+.typical_text{
+    font-size: 30px;
+    margin: 20px;
+}
+.timetable_and_pics{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.slideshow_pic{
+    position: relative;
+    display: block;
+    height: 500px;
+    width: auto;
+    transition: 5s;
 }
 
 

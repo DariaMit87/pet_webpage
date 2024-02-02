@@ -63,18 +63,19 @@
     position: relative;
     overflow: hidden;
     width: 100%;
-    max-width: 1230px; 
+    max-width: 1230px;
     margin: auto;
 }
 
 .img_carousel_inner {
     display: flex;
+    overflow: hidden;
     transition: transform 0.5s ease-in-out;
 }
 
 .img_container {
     width: 100%;
-    padding: 10px solid white;
+    height: auto; 
 }
 
 .pic {
@@ -99,7 +100,7 @@ button {
     width: 30px;
     height: 30px;
 }
-.material-icons{
+.material-icons {
     display: flex;
     justify-content: center;
 }

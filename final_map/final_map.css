@@ -36,6 +36,14 @@
     display: flex;
     align-items: center;
     margin-right: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition: all 0.3s ease;
+}
+.header_button:hover{
+    transform: scale(1.03); 
+    background-color: #da8531; 
+    color: #fff;
+    box-shadow: 0 5px 9px 0 rgba(0, 0, 0, 0.5), 0 7px 21px 0 rgba(0, 0, 0, 0.4);
 }
 
 
@@ -52,6 +60,7 @@
     justify-self: center;
     align-self: center;
     border: 1px solid #686868;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .map_text{
     grid-area: 1/2/1/2;

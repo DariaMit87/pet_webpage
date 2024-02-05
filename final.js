@@ -24,4 +24,17 @@ let images = ["pics/22.webp", "pics/33.webp", "pics/44.webp", "pics/55.webp"]
 setInterval(function(){
     let rnd = Math.floor(Math.random()*images.length);
     slideshow.src = images[rnd];
-},1200);
+},1600);
+
+
+document.getElementById('myForm').addEventListener('submit', function (event) {
+    if (event.target.checkValidity()) {
+        reserve();
+    } else {
+    }
+});
+function reserve() {
+    alert('Thank you for filling the form! Our manager will contact you in about 5 minutes');
+}
+
+
